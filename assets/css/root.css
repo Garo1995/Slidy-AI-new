@@ -1,0 +1,33 @@
+:root {
+    --white-color: rgba(255, 255, 255, 1);
+    --bg-color: rgba(239, 242, 245, 1);
+    --black-color: rgba(31, 31, 31, 1);
+    --blue-color: rgba(18, 82, 211, 1);
+    --blue-color-01: rgba(18, 82, 211, 0.1);
+    --silver-color: rgba(248, 249, 251, 1);
+    --text-color: rgba(70, 69, 81, 1);
+    --white-theme: rgba(0, 0, 0, 0.5);
+    --border-line: rgba(70, 69, 81, 0.08);
+    --border-black: rgba(22, 22, 22, 1);
+    --text-wihite: rgba(255, 255, 255, 0.3);
+    --silver-08: rgba(70, 69, 81, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white-color: rgba(38, 39, 40, 1);
+        --bg-color: rgba(27, 28, 31, 1);
+        --black-color: rgba(250, 253, 255, 1);
+        --blue-color: rgba(161, 216, 238, 1);
+        --blue-color-01: rgba(194, 204, 246, 0.12);
+
+        --silver-color: rgba(46, 45, 47, 1);
+        --text-color: rgba(250, 253, 255, 0.7);
+        --white-theme: rgba(250, 253, 255, 0.7);
+        --border-line: rgba(255, 255, 255, 0.08);
+        --border-black: rgba(250, 253, 255, 1);
+        --text-wihite: rgba(255, 255, 255, 1);
+        --silver-08: rgba(255, 255, 255, 0.08);
+
+    }
+}

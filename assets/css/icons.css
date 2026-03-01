@@ -1,0 +1,132 @@
+
+.icon {
+    display               : inline-block;
+    height                : 1em;
+    width                 : 1em;
+    mask-size             : contain;
+    -webkit-mask-size     : contain;
+    mask-repeat           : no-repeat;
+    -webkit-mask-repeat   : no-repeat;
+    mask-position         : center;
+    -webkit-mask-position : center;
+}
+
+.icon.icon-plus {
+    mask-image         : url(../img/icon-plus.svg);
+    -webkit-mask-image : url(../img/icon-plus.svg);
+    font-size: 48px;
+    background-color: var(--white-color);
+}
+.icon.icon-star-tit {
+    mask-image         : url(../img/star-title.svg);
+    -webkit-mask-image : url(../img/star-title.svg);
+    font-size: 18px;
+    background-color: var(--blue-color);
+}
+
+.icon.icon-wheel {
+    mask-image         : url(../img/wheel.svg);
+    -webkit-mask-image : url(../img/wheel.svg);
+    font-size: 24px;
+    background-color: var(--blue-color);
+}
+
+.icon.icon-top-right {
+    mask-image         : url(../img/top-right.svg);
+    -webkit-mask-image : url(../img/top-right.svg);
+    font-size: 26px;
+
+}
+
+.icon.icon-login {
+    mask-image         : url(../img/icon-login.svg);
+    -webkit-mask-image : url(../img/icon-login.svg);
+    font-size: 24px;
+    background-color: var(--border-black);
+}
+
+.icon.icon-user {
+    mask-image         : url(../img/user.svg);
+    -webkit-mask-image : url(../img/user.svg);
+    font-size: 24px;
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-key{
+    content: url(../img/key.png);
+    width: 25px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+}
+.icon-colors{
+    content: url(../img/colors.png);
+}
+.icon-icon-zig{
+    content: url(../img/icon-zig.png);
+    position: relative;
+    top: 3px;
+    display: inline-block;
+}
+
+
+
+.icon-security {
+    content: url("../img/security.png");
+}
+.icon-settings {
+    content: url("../img/settings.png");
+}
+.icon-lump {
+    content: url("../img/lump.png");
+}
+
+
+
+.icon-prob-internet{
+    content: url("../img/prob-internet.png");
+}
+.icon-services{
+    content: url("../img/icon-services.png");
+}
+.icon-duplicates{
+    content: url("../img/icon-duplicates.png");
+}
+.icon-empty{
+    content: url("../img/icon-empty.png");
+}
+
+
+
+
+
+
+
+.icon-pen{
+    content: url("../img/icon-pen.png");
+}
+.icon-ptich{
+    content: url("../img/ptich.png");
+}
+.icon-red-x{
+    content: url("../img/red-x.png");
+}
+.icon-skrep{
+    content: url("../img/skrep.png");
+}
